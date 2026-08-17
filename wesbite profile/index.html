@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Lonkar — Software Engineer &amp; AI Specialist</title>
+    <meta name="description" content="Portfolio of Parth Lonkar — Backend-focused Software Engineer &amp; B.Tech Computer Engineering student specializing in scalable systems, AI-driven automation, and web development.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Link to Modular stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor elements -->
+    <div class="c-dot" id="cDot"></div>
+    <div class="c-ring" id="cRing"></div>
+
+    <!-- Page Loading Screen -->
+    <div id="loader">
+        <div class="loader-inner">
+            <div class="loader-name">
+                <span>P</span><span>A</span><span>R</span><span>T</span><span>H</span>
+                <span>&nbsp;</span>
+                <span>L</span><span>O</span><span>N</span><span>K</span><span>A</span><span>R</span>
+            </div>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="nav">
+        <a href="#home" class="nav-logo">Parth Lonkar<span>—</span> PORTFOLIO</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-btn" id="navBtn">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-text" aria-hidden="true">PARTH</div>
+        <div class="hero-bottom">
+            <h1 class="hero-title">
+                <span class="line"><span>Backend</span></span>
+                <span class="line"><span>Systems <span>&amp;</span></span></span>
+                <span class="line"><span>Agentic AI.</span></span>
+            </h1>
+            <div class="hero-meta">
+                <p>Role : <strong class="highlight-gold">Software Engineer &amp; AI Developer</strong></p>
+                <p>Location : <strong>Nagpur, Maharashtra, India</strong></p>
+                <p>Current : <strong>Final-Year B.Tech Computer Engineering</strong></p>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Highlights Slideshow -->
+    <section id="highlights" class="highlights">
+        <div class="container">
+            <div class="section-label">Highlights</div>
+            <div class="highlight-panel reveal">
+                <div class="highlight-copy">
+                    <div class="highlight-kicker">Achievement Slideshow</div>
+                    <h2 class="highlight-title">A dim showcase of selected moments.</h2>
+                    <p class="highlight-body">Eight slots rotate through visual highlights so you can replace them later with your own photos without changing the layout.</p>
+                </div>
+                <div class="highlight-slideshow" id="highlightSlideshow">
+                    <div class="highlight-stage">
+                        <img id="highlightMainImage" src="assets/images/compex.jpeg" alt="Highlight slideshow image">
+                        <div class="highlight-stage-overlay">
+                            <div class="highlight-stage-label" id="highlightMainLabel">COMPEX</div>
+                            <div class="highlight-stage-caption" id="highlightMainCaption">Project COMPEX is the opening highlight in the slideshow.</div>
+                        </div>
+                    </div>
+                    <div class="highlight-thumbs" id="highlightThumbs">
+                        <button class="highlight-thumb active" type="button" data-highlight-index="0" data-highlight-src="assets/images/compex.jpeg" data-highlight-alt="COMPEX highlight" data-highlight-label="COMPEX-2026" data-highlight-caption="GarudaDrishti project showcase">
+                            <img src="assets/images/compex.jpeg" alt="Highlight 1">
+                            <span>01</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="1" data-highlight-src="assets/images/compex2.jpeg" data-highlight-alt="GarudaDrishti project showcase to hon'ble CM Devendra Fadnavis" data-highlight-label="GarudaDrishti" data-highlight-caption="GarudaDrishti project showcase to Hon'ble CM Devendra Fadnavis.">
+                            <img src="assets/images/compex2.jpeg" alt="Highlight 2">
+                            <span>02</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="2" data-highlight-src="assets/images/winner (6).jpeg" data-highlight-alt="LoanOps AI highlight" data-highlight-label="Compex 2026" data-highlight-caption="Compex day-1">
+                            <img src="assets/images/winner (6).jpeg" alt="Highlight 3">
+                            <span>03</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="3" data-highlight-src="assets/images/winner (7).jpeg" data-highlight-alt="Aquades highlight" data-highlight-label="Insight Sports event" data-highlight-caption="Event management and sports analytics highlight.">
+                            <img src="assets/images/winner (7).jpeg" alt="Highlight 4">
+                            <span>04</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="4" data-highlight-src="assets/images/winner (8).jpeg" data-highlight-alt="Agrirakshak highlight" data-highlight-label="Insight Sports event" data-highlight-caption="Insight Sports event management and sports analytics highlight.">
+                            <img src="assets/images/winner (8).jpeg" alt="Highlight 5">
+                            <span>05</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="5" data-highlight-src="assets/images/winner (4).jpeg" data-highlight-alt="Renuka Graphics highlight" data-highlight-label="Renuka Graphics" data-highlight-caption="UBA project presentation highlight at Krushi Mahavidhyalay, Nagpur">
+                            <img src="assets/images/winner (4).jpeg" alt="Highlight 6">
+                            <span>06</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="6" data-highlight-src="assets/images/winner (5).jpeg" data-highlight-alt="Achievement highlight 7" data-highlight-label="Highlight 07" data-highlight-caption="UBA project presentation highlight at Krushi Mahavidhyalay, Nagpur">
+                            <img src="assets/images/winner (5).jpeg" alt="Highlight 7">
+                            <span>07</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="7" data-highlight-src="assets/images/winner (9).jpeg" data-highlight-alt="Achievement highlight 8" data-highlight-label="IIIT,Nagpur Hackathon" data-highlight-caption="IIIT, Nagpur Shortlisted in top 12 amongts 500+ teams">
+                            <img src="assets/images/winner (9).jpeg" alt="Highlight 8">
+                            <span>08</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="8" data-highlight-src="assets/images/winner (10).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="Infinity Departmental event " data-highlight-caption="Contributed to the I&V team for the MVP department owned Chatbot named Jaguar">
+                            <img src="assets/images/winner (10).jpeg" alt="Highlight 9">
+                            <span>09</span>
+                            <button class="highlight-thumb" type="button" data-highlight-index="9" data-highlight-src="assets/images/winner (14).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="UBA - Agrobot presentation" data-highlight-caption="UBA presentation to Management level @St. Vincent Pallotti College of Engineering and Technology">
+                            <img src="assets/images/winner (14).jpeg" alt="Highlight 10">
+                            <span>10</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="10" data-highlight-src="assets/images/winner (2).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="Agentic Ai workshop" data-highlight-caption="Coordinated at institute level event for agentic ai hands-on workshop">
+                            <img src="assets/images/winner (2).jpeg" alt="Highlight 10">
+                            <span>11</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="11" data-highlight-src="assets/images/winner (3).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="Hackathon" data-highlight-caption="Swalambh hackathon top 15 finish presentation">
+                            <img src="assets/images/winner (3).jpeg" alt="Highlight 11">
+                            <span>12</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="12" data-highlight-src="assets/images/winner (1).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="Rtmnu organised chess event" data-highlight-caption="Won 2nd prize at rtmnu organised university level chess tournament">
+                            <img src="assets/images/winner (1).jpeg" alt="Highlight 12">
+                            <span>13</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="13" data-highlight-src="assets/images/winner (18).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="Ashwamedh inter university chess tournament" data-highlight-caption="Won 3rd prize for rtmnu at inter university at all maharashtra level.">
+                            <img src="assets/images/winner (18).jpeg" alt="Highlight 13">
+                            <span>14</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="14" data-highlight-src="assets/images/winner (16).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="Ashwamedh inter university chess tournament" data-highlight-caption="Won 3rd prize for rtmnu at inter university at all maharashtra level.">
+                            <img src="assets/images/winner (16).jpeg" alt="Highlight 14">
+                            <span>15</span>
+                        </button>
+                        <button class="highlight-thumb" type="button" data-highlight-index="15" data-highlight-src="assets/images/winner (11).jpeg" data-highlight-alt="Achievement highlight 9" data-highlight-label="Highlight 09" data-highlight-caption="Won 2nd rank at inter college rtmnu organised basketball event at rtmnu ground.">
+                            <img src="assets/images/winner (11).jpeg" alt="Highlight 15">
+                            <span>16</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work Section -->
+    <section id="work">
+        <div class="section-label">Selected Work</div>
+        <div class="work-grid">
+
+            <!-- 01 Wide: GarudaDrishti -->
+            <div class="work-item wide">
+                <div class="work-thumb">
+                    <div class="work-graphic-container">
+                        <img src="assets/images/garuda_drishti.jpg" alt="GarudaDrishti Cyber Intelligence Threat Map Dashboard" class="project-img">
+                    </div>
+                </div>
+                <div class="work-overlay">
+                    <div class="work-info">
+                        <div class="work-num">01 / FEATURED FLAGSHIP</div>
+                        <h3 class="work-title">Project GarudaDrishti</h3>
+                        <div class="work-tags">
+                            <span class="work-tag highlight-cyan">Live Surveillance Platform</span>
+                            <span class="work-tag">Law Enforcement</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02: CodeRed LoanOps-AI -->
+            <div class="work-item">
+                <div class="work-thumb">
+                    <div class="work-graphic-container">
+                        <img src="assets/images/loanops_ai.jpg" alt="CodeRed LoanOps-AI Neural Network Orchestration Flow" class="project-img">
+                    </div>
+                </div>
+                <div class="work-overlay">
+                    <div class="work-info">
+                        <div class="work-num">02</div>
+                        <h3 class="work-title"><a href="https://github.com/ParthLonkar/CodeRed_LoanOps-AI" target="_blank">CodeRed LoanOps-AI</a></h3>
+                        <div class="work-tags">
+                            <span class="work-tag highlight-gold">Multi-Agent RAG</span>
+                            <span class="work-tag">Agentic Sales Workflow</span>
+                            <span class="work-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 03: Project Aquades -->
+            <div class="work-item">
+                <div class="work-thumb">
+                    <div class="work-graphic-container">
+                        <img src="assets/images/aquades.jpg" alt="Project Aquades High Performance Datacenter Cluster" class="project-img">
+                    </div>
+                </div>
+                <div class="work-overlay">
+                    <div class="work-info">
+                        <div class="work-num">03</div>
+                        <h3 class="work-title"><a href="https://www.aquades.net" target="_blank">Project Aquades</a></h3>
+                        <div class="work-tags">
+                            <span class="work-tag highlight-cyan">High Traffic Stack</span>
+                            <span class="work-tag">5000+ Req/Sec Uptime</span>
+                            <span class="work-tag">Node.js / Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 04: Project Agrirakshak -->
+            <div class="work-item">
+                <div class="work-thumb">
+                    <div class="work-graphic-container">
+                        <img src="assets/images/agrirakshak.jpg" alt="Project Agrirakshak Futuristic Crop Field Dashboard Analytics" class="project-img">
+                    </div>
+                </div>
+                <div class="work-overlay">
+                    <div class="work-info">
+                        <div class="work-num">04</div>
+                        <h3 class="work-title"><a href="https://github.com/ParthLonkar/PS-3-_GDGNAGPUR_CodeAlpha" target="_blank">Project Agrirakshak</a></h3>
+                        <div class="work-tags">
+                            <span class="work-tag highlight-cyan">Agricultural ML Model</span>
+                            <span class="work-tag">Mandi Price Feed APIs</span>
+                            <span class="work-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 05: Renuka Graphics -->
+            <div class="work-item">
+                <div class="work-thumb">
+                    <div class="work-graphic-container">
+                        <img src="assets/images/renuka_graphics.jpg" alt="Renuka Graphics Modern UI Dashboard and Workflow Board" class="project-img">
+                    </div>
+                </div>
+                <div class="work-overlay">
+                    <div class="work-info">
+                        <div class="work-num">05</div>
+                        <h3 class="work-title"><a href="https://www.renukagraphics.in" target="_blank">Renuka Graphics</a></h3>
+                        <div class="work-tags">
+                            <span class="work-tag highlight-gold">Product Inquiry</span>
+                            <span class="work-tag">Spam-Reduction Validation</span>
+                            <span class="work-tag">Notification Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-label">About</div>
+            <div class="about-grid reveal">
+                <div class="about-photo-col">
+                    <img src="profile.jpeg" alt="Parth Lonkar">
+                    <span class="about-photo-num">01 / PROFILE</span>
+                </div>
+                <div class="about-text-col">
+                    <h2 class="about-headline">
+                        Engineering robust backend logic and intelligent agentic workflows to build high-performance systems.
+                    </h2>
+                    <div class="about-body">
+                        <p>I am a final-year B.Tech Computer Engineering student at <strong class="highlight-text">St. Vincent Pallotti College of Engineering and Technology, Nagpur</strong>. My work focuses on constructing backend architectures, writing secure RESTful APIs, and implementing automated workflows using AI agent frameworks.</p>
+                        <p>During my tenure as a Python Developer Intern at <strong class="highlight-text">Cybrainyx Technologies</strong>, I led system design contributions for <strong class="highlight-gold">GarudaDrishti</strong> — a live cyber intelligence platform utilized by law enforcement across Nagpur and Amravati regions, subsequently recognized by the <strong class="highlight-gold">Hon'ble Chief Minister of Maharashtra Devendra Fadnavis</strong>.</p>
+                        <p>When I'm not programming, I play competitive chess. I represented Nagpur University at the <strong class="highlight-cyan">All India Inter-Zonal Chess Championship</strong> and continue to participate in state championships, leveraging strategic and analytical patterns from the board to write cleaner systems code.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="about-stat-num counter highlight-gold" data-target="5">0</div>
+                            <div class="about-stat-label">Industrial Projects</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-num counter highlight-cyan" data-target="8">0</div>
+                            <div class="about-stat-label">Hackathon Finals</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-num counter highlight-gold" data-target="3">0</div>
+                            <div class="about-stat-label">Live Projects</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-label">Capabilities</div>
+            <div class="skills-list">
+                <div class="skill-row reveal">
+                    <span class="skill-row-num">01</span>
+                    <span class="skill-row-name">Languages</span>
+                    <div class="skill-row-tags">
+                        <span class="skill-row-tag">Python</span>
+                        <span class="skill-row-tag">JavaScript</span>
+                        <span class="skill-row-tag">C</span>
+                        <span class="skill-row-tag">C++</span>
+                        <span class="skill-row-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-row reveal">
+                    <span class="skill-row-num">02</span>
+                    <span class="skill-row-name">Backend &amp; APIs</span>
+                    <div class="skill-row-tags">
+                        <span class="skill-row-tag">Node.js</span>
+                        <span class="skill-row-tag">Express.js</span>
+                        <span class="skill-row-tag">FastAPI</span>
+                        <span class="skill-row-tag">Flask</span>
+                        <span class="skill-row-tag">RESTful API Design</span>
+                        <span class="skill-row-tag">JWT Auth</span>
+                        <span class="skill-row-tag">WebSockets</span>
+                    </div>
+                </div>
+                <div class="skill-row reveal">
+                    <span class="skill-row-num">03</span>
+                    <span class="skill-row-name">Databases</span>
+                    <div class="skill-row-tags">
+                        <span class="skill-row-tag">MongoDB</span>
+                        <span class="skill-row-tag">PostgreSQL</span>
+                        <span class="skill-row-tag">MySQL</span>
+                        <span class="skill-row-tag">SQLite</span>
+                        <span class="skill-row-tag">Schema Design</span>
+                    </div>
+                </div>
+                <div class="skill-row reveal">
+                    <span class="skill-row-num">04</span>
+                    <span class="skill-row-name">AI / ML &amp; Automation</span>
+                    <div class="skill-row-tags">
+                        <span class="skill-row-tag">RAG Platforms</span>
+                        <span class="skill-row-tag">Agentic AI Dev</span>
+                        <span class="skill-row-tag">Scikit-Learn</span>
+                        <span class="skill-row-tag">Pandas</span>
+                        <span class="skill-row-tag">OpenCV</span>
+                        <span class="skill-row-tag">Selenium</span>
+                        <span class="skill-row-tag">Playwright</span>
+                    </div>
+                </div>
+                <div class="skill-row reveal">
+                    <span class="skill-row-num">05</span>
+                    <span class="skill-row-name">DevOps &amp; Tools</span>
+                    <div class="skill-row-tags">
+                        <span class="skill-row-tag">PM2 Process</span>
+                        <span class="skill-row-tag">Production Server Admin</span>
+                        <span class="skill-row-tag">SSH</span>
+                        <span class="skill-row-tag">Log Monitoring</span>
+                        <span class="skill-row-tag">Git &amp; GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-label">Experience</div>
+            <div class="exp-list">
+
+                <!-- Cybrainyx Technologies -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Python Developer Intern — GarudaDrishti Project</h3>
+                        <div class="exp-company">Cybrainyx Technologies — <span>Nagpur</span></div>
+                        <ul class="exp-points">
+                            <li>Contributed to backend architecture and system design for <strong class="highlight-cyan">GarudaDrishti</strong>, a live cyber intelligence and surveillance platform used by Law Enforcement and Cyber Cell across Nagpur and Amravati regions.</li>
+                            <li>Collaborated with a multidisciplinary technical team across the full SDLC (requirements, build, testing, and production support) following strict code review standards to ensure production-ready delivery.</li>
+                            <li>Worked directly with law enforcement personnel to translate operational field requirements into working technical solutions.</li>
+                            <li>Project recognized by <strong class="highlight-gold">Hon'ble Chief Minister of Maharashtra Shri Devendra Fadnavis</strong> for its contribution to technology-enabled policing and cyber operations. <span class="inline-badge badge-gold">Flagship Recognition</span></li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Aug 2025 — Jun 2026</div>
+                </div>
+
+                <!-- Freelance Full-Stack Developer -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Freelance Full-Stack Developer</h3>
+                        <div class="exp-company">Self-employed — <span>Remote</span></div>
+                        <ul class="exp-points">
+                            <li>Architected and deployed a scalable production web application (Project Aquades) handling <strong class="highlight-cyan">5000+ concurrent requests</strong> using Node.js, Express.js, and PostgreSQL/MongoDB. <span class="inline-badge badge-cyan">Scale Uptime</span></li>
+                            <li>Built an enterprise job-posting and inquiry platform (Renuka Graphics) with custom data validation logic that reduced invalid and spam submissions.</li>
+                            <li>Automated administrative workflows end-to-end with notification pipelines, cutting manual processing effort and enabling real-time inquiry-to-response turnaround.</li>
+                            <li>Managed live production deployments using PM2 process management, maintaining uptime through monitoring and automation strategies.</li>
+                            <li>Organized coding events and peer-learning sessions to strengthen technical culture among student members.</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Mar 2026 — Present</div>
+                </div>
+
+            </div>
+
+            <div class="section-label" style="margin-top: 6rem;">Achievements</div>
+            <div class="exp-list">
+
+                <!-- Idea Hackathon -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Finalist — Idea Hackathon <span class="inline-badge badge-gold">Top 30</span></h3>
+                        <div class="exp-company">National Scale Competition</div>
+                        <ul class="exp-points">
+                            <li>Selected in the <strong>Top 30 out of 500+ teams</strong> for advanced scraping and data pipelines.</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Jul 2025</div>
+                </div>
+
+                <!-- IIIT Nagpur Hackathon -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Finalist — IIIT Nagpur Hackathon <span class="inline-badge badge-cyan">Top 12</span></h3>
+                        <div class="exp-company">IIIT Nagpur Campus</div>
+                        <ul class="exp-points">
+                            <li>Finished in the <strong>Top 12 out of 500+ competing teams</strong> for on-campus finals.</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Oct 2025</div>
+                </div>
+
+                <!-- SIT Nagpur Hackathon -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Finalist — SIT Nagpur Hackathon <span class="inline-badge badge-cyan">Top 60</span></h3>
+                        <div class="exp-company">Symbiosis Institute of Technology</div>
+                        <ul class="exp-points">
+                            <li>Selected in the <strong>Top 60 out of 200+ teams</strong> for on-campus final project presentations.</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Feb 2026</div>
+                </div>
+
+                <!-- Swalambh Hackathon -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Finalist — Swalambh Hackathon <span class="inline-badge badge-gold">Top 60</span></h3>
+                        <div class="exp-company">National Scale Event</div>
+                        <ul class="exp-points">
+                            <li>Placed in the <strong>Top 60 out of 500+ competing teams</strong> for on-campus finals.</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Feb 2026</div>
+                </div>
+
+                <!-- Adobe Hackathon -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Participated — Adobe Hackathon</h3>
+                        <div class="exp-company">Adobe Online Hackathon</div>
+                        <ul class="exp-points">
+                            <li>Successfully designed and submitted a project for the national-level online Adobe hackathon.</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Sep 2025</div>
+                </div>
+
+                <!-- Chess National Championship -->
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">National Chess Championship <span class="inline-badge badge-gold">Nagpur Univ Representative</span></h3>
+                        <div class="exp-company">All India Inter-Zonal — <span>Nagpur University Representative</span></div>
+                        <ul class="exp-points">
+                            <li>Represented Nagpur University at the national level championship, showcasing advanced logical planning and strategic foresight.</li>
+                            <li>Represented Nagpur University across multiple state-level chess tournaments (2024–2025).</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">2024 — 2025</div>
+                </div>
+
+            </div>
+
+            <div class="section-label" style="margin-top: 6rem;">Education</div>
+            <div class="exp-list">
+                
+                <div class="exp-item reveal">
+                    <div class="exp-left">
+                        <h3 class="exp-role">Bachelor of Technology (B.Tech) — Computer Engineering</h3>
+                        <div class="exp-company">St. Vincent Pallotti College of Engineering and Technology, Nagpur</div>
+                        <ul class="exp-points">
+                            <li>Focus Areas: Systems Architecture, Database Management (DBMS), Computer Networking, Object-Oriented Programming (OOP).</li>
+                        </ul>
+                    </div>
+                    <div class="exp-date">Aug 2023 — May 2027</div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-label">Contact</div>
+            <div class="contact-inner">
+                <div>
+                    <h2 class="contact-headline reveal">Let's build<br><span>something</span><br>together.</h2>
+                    <div class="contact-links reveal">
+                        <a href="mailto:lonkarparth2004@gmail.com" class="contact-link-item">
+                            <span class="contact-link-label">Email</span>
+                            <span class="contact-link-value">lonkarparth2004@gmail.com</span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/parth-lonkar-9b6161302/" target="_blank" class="contact-link-item">
+                            <span class="contact-link-label">LinkedIn</span>
+                            <span class="contact-link-value">parth-lonkar</span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                        <a href="https://github.com/ParthLonkar" target="_blank" class="contact-link-item">
+                            <span class="contact-link-label">GitHub</span>
+                            <span class="contact-link-value">ParthLonkar</span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                        <div class="contact-link-item">
+                            <span class="contact-link-label">Location</span>
+                            <span class="contact-link-value">Nagpur, Maharashtra, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="contact-form reveal" id="contactForm">
+                        <div class="form-row">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span>Send Message</span>
+                        </button>
+                        <div id="formStatus" class="form-status" style="display:none;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <span class="footer-copy">© 2026 Parth Lonkar. All rights reserved.</span>
+        <div class="footer-socials">
+            <a href="https://github.com/ParthLonkar" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/parth-lonkar-9b6161302/" target="_blank">LinkedIn</a>
+            <a href="mailto:lonkarparth2004@gmail.com">Email</a>
+        </div>
+    </footer>
+
+    <!-- Link to Modular Javascript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+_id,set_name,keywords[0],keywords[1],keywords[2],keywords[3],keywords[4],keywords[5],ml_severity_threshold
+685e0a8d010c85396ddc9406,ML_Keywords,drugs,hate,kill,abuse,violence,terror,0.3
